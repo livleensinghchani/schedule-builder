@@ -1,0 +1,59 @@
+html
+{
+    font-size: calc(16px + 0.4vw); 
+
+    background-color: rgb(20, 20, 20);
+}
+
+/* Main Title */
+.mainTitle
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.mainTitle ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0.8rem 1rem;
+    margin: 0px;
+    gap: 10px;
+}
+
+.mainTitle ul .logoMT
+{
+    aspect-ratio: 1 / 1;
+    width: 3rem;
+}
+
+.mainTitle ul .nameMT
+{
+    aspect-ratio: 2.4 / 1;
+    width: 5.6rem;
+}
+
+.mainTitle ul span
+{
+   font-size: 2rem;
+
+    line-height: 3rem;
+    text-align: center;
+}
+/* ----------- */
+
+/* TEST */
+.lorem
+{
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+.lorem ul
+{
+    text-align: justify;
+
+    padding: 24px;
+}
