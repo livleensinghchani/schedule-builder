@@ -44,16 +44,27 @@ html
 }
 /* ----------- */
 
-/* TEST */
-.lorem
+/* Selection Tray */
+
+.selectionTray ul
 {
-    background-color: rgb(240, 240, 240);
-    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
 }
 
-.lorem ul
+.selectionTray ul li
 {
-    text-align: justify;
+    list-style: none;
 
-    padding: 24px;
+    padding: 0px 0.4rem;
+    margin-top: -4px;
+}
+
+.selectionTray ul li input
+{
+    width: 80px;
+    text-align: center;
+    border-radius: 6px;
 }
