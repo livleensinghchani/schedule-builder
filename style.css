@@ -55,7 +55,7 @@ html {
 
 /* Main Body */
 .mainBody {
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 10px 40px;
     
     display: flex;
@@ -87,6 +87,13 @@ html {
     margin: 10px 0px 20px 0px;
 
     border-radius: var(--border-rad);
+
+    background-color: var(--colour-blue);
+}
+
+hr {
+    margin: 10px 10px;
+    height: 1px;
 
     background-color: var(--colour-blue);
 }
