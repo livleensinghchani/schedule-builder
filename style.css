@@ -16,6 +16,8 @@ html {
     font-size: calc(16px + 0.4vw); 
     font-family: 'Roboto', sans-serif;
 
+    color: var(--colour-black);
+
     background-color: var(--colour-black);
 }
 
@@ -56,7 +58,7 @@ html {
 /* Main Body */
 .mainBody {
     margin: 10px 0px;
-    padding: 10px 40px;
+    padding: 10px 20px;
     
     display: flex;
     justify-content: center;
@@ -108,16 +110,36 @@ hr {
 .dayData {
     display: flex;
     justify-content:space-between;
+
+    font-family: 'Roboto Condensed', sans-serif;;
+
+    padding: 0px 16px;
 }
 
 .dayData ul {
     display: flex;
     gap: 10px;
 
-    padding: 0px 40px;
-    margin: 40px 0px 0px 0px;
+    padding: 0px 10px;
+    margin: 20px 0px 0px 0px;
+
+    font-size: 1.8rem;
+    font-weight: 400;
 
     list-style: none;
+}
+
+.dayData span {
+    font-size: 2rem;
+
+    color: var(--colour-blue);
+
+    font-weight: 900;
+
+    padding: 0px;
+    margin: 0px;
+
+    align-self: center;
 }
 
 .schedule {
@@ -163,4 +185,14 @@ hr {
 .DataBase ul li {
     text-align: center;
 }
+/* ------------- */
 
+/* End Card */
+.endCard {
+    background-color: var(--colour-white);
+    border-radius: var(--border-rad);
+}
+
+.endCard ul {
+    margin: 0px;
+}
