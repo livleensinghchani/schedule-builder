@@ -1,13 +1,28 @@
+:root {
+    --colour-white: rgb(240, 240, 240);
+    --colour-black: rgb(20, 20, 20);
+
+    --colour-dark-grey: rgb(190, 190, 190);
+    --colour-light-grey: rgb(217, 217, 217);
+
+    --colour-blue: rgb(70, 105, 178);
+    --colour-dark-blue: rgb(48,46,104);
+    --colour-light-blue: rgb(0,152,218);
+
+    --border-rad: 10px;
+}
+
 html {
     font-size: calc(16px + 0.4vw); 
+    font-family: 'Roboto', sans-serif;
 
-    background-color: rgb(20, 20, 20);
+    background-color: var(--colour-black);
 }
 
 /* Main Title */
 .mainTitle {
-    background-color: rgb(240, 240, 240);
-    border-radius: 10px;
+    background-color: var(--colour-white);
+    border-radius: var(--border-rad);
 }
 
 .mainTitle ul {
@@ -38,8 +53,99 @@ html {
 }
 /* ----------- */
 
-/* Selection Tray */
-
-.selectionTray select {
-    overflow: scroll;
+/* Main Body */
+.mainBody {
+    margin: 20px 0px;
+    padding: 10px 40px;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    
+    background-color: var(--colour-white);
+    border-radius: var(--border-rad);
 }
+
+.headerTitle {
+    display: flex;
+
+    font-size: 10px;
+
+    gap: 20px;
+    
+    border-radius: var(--border-rad);
+    
+    color: var(--colour-white);
+    
+}
+
+.headerTitle h1 {
+    text-align: center;
+    
+    padding: 10px;
+    margin: 10px 0px 20px 0px;
+
+    border-radius: var(--border-rad);
+
+    background-color: var(--colour-blue);
+}
+
+.dataBody {
+    width: 100vw;
+
+    background-color: var(--colour-light-grey);
+    border-radius: var(--border-rad);
+}
+
+.dayData {
+    display: flex;
+    justify-content:space-between;
+}
+
+.dayData ul {
+    display: flex;
+    gap: 10px;
+
+    padding: 0px 40px;
+
+    list-style: none;
+}
+
+.schedule {
+
+}
+
+.DataBase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+
+    padding: 0px 8px;
+    margin: 6px;
+
+    background-color: var(--colour-dark-grey);
+
+    border-radius: var(--border-rad);
+}
+
+.DataBase ul {
+    list-style: none;
+
+    padding: 0px 0px;
+}
+
+.timeData {
+    width: 30%;
+}
+
+.timeTable {
+    width: 70%;
+}
+
+.DataBase ul li {
+    text-align: center;
+}
+
